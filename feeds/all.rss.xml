@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@timger</title><link>http://yishenggudou.github.com/</link><description></description><atom:link href="http://yishenggudou.github.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 20 Jan 2014 21:20:00 +0100</lastBuildDate><item><title>2014年的计划</title><link>http://yishenggudou.github.com/my-2014-zh_CN.html</link><description>&lt;p&gt;2014年的计划&lt;/p&gt;
-&lt;p&gt;1. 在长沙买房
-2.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">@timger</dc:creator><pubDate>Mon, 20 Jan 2014 21:20:00 +0100</pubDate><guid>tag:yishenggudou.github.com,2014-01-20:my-2014-zh_CN.html</guid><category>个人计划</category><category>2014</category></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@timger</title><link>http://yishenggudou.github.com/</link><description></description><atom:link href="http://yishenggudou.github.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 20 Jan 2014 21:20:00 +0100</lastBuildDate><item><title>2014年的计划</title><link>http://yishenggudou.github.com/my-2014-zh_CN.html</link><description>&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;2014年的计划&lt;/h2&gt;
+&lt;p&gt;技术选型&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;远离 &lt;cite&gt;python GUI&lt;/cite&gt; 远离 &lt;cite&gt;JAVA&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;深入 &lt;cite&gt;c&lt;/cite&gt; , &lt;cite&gt;oc&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;继续研究 &lt;cite&gt;HTML5&lt;/cite&gt; 和 &lt;cite&gt;JS&lt;/cite&gt; 跨平台解决方案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">@timger</dc:creator><pubDate>Mon, 20 Jan 2014 21:20:00 +0100</pubDate><guid>tag:yishenggudou.github.com,2014-01-20:my-2014-zh_CN.html</guid><category>个人计划</category><category>2014</category></item><item><title>使用django rest 框架构建你的REST API 服务器</title><link>http://yishenggudou.github.com/my-super-post-zh_CN.html</link><description>&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/timger/yishenggudou.github.com/content/django-rest-api.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
+&lt;p&gt;Title underline too short.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+使用django rest 框架构建你的REST API 服务器
+###########################
+&lt;/pre&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Sun, 03 Oct 2010 10:20:00 +0200</pubDate><guid>tag:yishenggudou.github.com,2010-10-03:my-super-post-zh_CN.html</guid><category>2014</category><category>awesome</category></item></channel></rss>

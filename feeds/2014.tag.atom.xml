@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/2014.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2014-01-20T21:20:00+01:00</updated><entry><title>2014年的计划</title><link href="http://yishenggudou.github.com/my-2014-zh_CN.html" rel="alternate"></link><updated>2014-01-20T21:20:00+01:00</updated><author><name>@timger</name></author><id>tag:yishenggudou.github.com,2014-01-20:my-2014-zh_CN.html</id><summary type="html">&lt;p&gt;2014年的计划&lt;/p&gt;
-&lt;p&gt;1. 在长沙买房
-2.&lt;/p&gt;
-</summary><category term="个人计划"></category><category term="2014"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/2014.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2014-01-20T21:20:00+01:00</updated><entry><title>2014年的计划</title><link href="http://yishenggudou.github.com/my-2014-zh_CN.html" rel="alternate"></link><updated>2014-01-20T21:20:00+01:00</updated><author><name>@timger</name></author><id>tag:yishenggudou.github.com,2014-01-20:my-2014-zh_CN.html</id><summary type="html">&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;2014年的计划&lt;/h2&gt;
+&lt;p&gt;技术选型&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;远离 &lt;cite&gt;python GUI&lt;/cite&gt; 远离 &lt;cite&gt;JAVA&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;深入 &lt;cite&gt;c&lt;/cite&gt; , &lt;cite&gt;oc&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;继续研究 &lt;cite&gt;HTML5&lt;/cite&gt; 和 &lt;cite&gt;JS&lt;/cite&gt; 跨平台解决方案&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</summary><category term="个人计划"></category><category term="2014"></category></entry><entry><title>使用django rest 框架构建你的REST API 服务器</title><link href="http://yishenggudou.github.com/my-super-post-zh_CN.html" rel="alternate"></link><updated>2010-10-03T10:20:00+02:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2010-10-03:my-super-post-zh_CN.html</id><summary type="html">&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/timger/yishenggudou.github.com/content/django-rest-api.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
+&lt;p&gt;Title underline too short.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+使用django rest 框架构建你的REST API 服务器
+###########################
+&lt;/pre&gt;
+&lt;/div&gt;
+</summary><category term="2014"></category><category term="awesome"></category></entry></feed>

@@ -4,7 +4,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>@timger - yeah</title>
+    <title>@timger - django, python</title>
 
     <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/normalize.css" />
     <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/foundation.min.css" />
@@ -47,20 +47,32 @@
         
 
             <article>
-                <a href="http://yishenggudou.github.com/my-super-post-zh_CN.html"><h3 class="article-title">使用django rest 框架构建你的REST API 服务器</h3></a>
+                <a href="http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html"><h3 class="article-title">使用django rest 框架构建你的REST API 服务器</h3></a>
 <h6 class="subheader" title="2010-10-03T10:20:00">Sun 03 October 2010
 </h6>
 
 
-<div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/Users/timger/yishenggudou.github.com/content/django-rest-api.rst</tt>, line 2)</p>
-<p>Title underline too short.</p>
+<div class="section" id="id1">
+<h2>环境搭建</h2>
+<p>创建虚拟环境 <cite>virtualenv  python_env</cite></p>
+<p>添加别名:</p>
 <pre class="literal-block">
-使用django rest 框架构建你的REST API 服务器
-###########################
+6 alias virtualenv_python=&quot;. /Volumes/MACEXT/python_env/bin/activate &amp;&amp; /Volumes/MACEXT/python_env/bin/python&quot;
+7 alias virtualenv_pip=&quot;. /Volumes/MACEXT/python_env/bin/activate &amp;&amp; /Volumes/MACEXT/python_env/bin/pip&quot;
+</pre>
+<p>安装包:</p>
+<pre class="literal-block">
+virtualenv_pip install django==1.5.1
+virtualenv_pip install djangorestframework
+virtualenv_pip install markdown
+virtualenv_pip install django-filter
+</pre>
+<p>如果安装路径不对则修改 <cite>/Volumes/MACEXT/python_env/bin/activate</cite></p>
+<pre class="literal-block">
+export PYTHONPATH=&quot;/Volumes/MACEXT/python_env/site-packages&quot;
 </pre>
 </div>
-<p class="subheader">Category: <a href="http://yishenggudou.github.com/category/yeah.html">yeah</a>
+<p class="subheader">Category: <a href="http://yishenggudou.github.com/category/django-python.html">django, python</a>
 
     Tagged: 
     <a href="http://yishenggudou.github.com/tag/2014.html">2014 </a>
@@ -69,7 +81,7 @@
 
 
 
-<p><a href="http://yishenggudou.github.com/my-super-post-zh_CN.html#disqus_thread">comments</a></p>            </article>
+<p><a href="http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html#disqus_thread">comments</a></p>            </article>
 
 <div class="pagination-centered">
 <h6 class="subheader">Page 1 of 1</h6>
@@ -97,8 +109,8 @@
 		
         <h5 class="sidebar-title">Categories</h5>
         <ul class="side-nav">
+            <li><a href="http://yishenggudou.github.com/category/django-python.html">django, python</a></li>
             <li><a href="http://yishenggudou.github.com/category/ge-ren.html">个人</a></li>
-            <li><a href="http://yishenggudou.github.com/category/yeah.html">yeah</a></li>
    
         </ul>
 

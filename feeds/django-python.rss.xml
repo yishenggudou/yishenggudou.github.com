@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/awesome.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2010-10-03T10:20:00+02:00</updated><entry><title>使用django rest 框架构建你的REST API 服务器</title><link href="http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html" rel="alternate"></link><updated>2010-10-03T10:20:00+02:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2010-10-03:djang-rest-api-doc-zh_CN.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@timger</title><link>http://yishenggudou.github.com/</link><description></description><atom:link href="http://yishenggudou.github.com/feeds/django-python.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 03 Oct 2010 10:20:00 +0200</lastBuildDate><item><title>使用django rest 框架构建你的REST API 服务器</title><link>http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html</link><description>&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;环境搭建&lt;/h2&gt;
 &lt;p&gt;创建虚拟环境 &lt;cite&gt;virtualenv  python_env&lt;/cite&gt;&lt;/p&gt;
 &lt;p&gt;添加别名:&lt;/p&gt;
@@ -19,4 +19,4 @@ virtualenv_pip install django-filter
 export PYTHONPATH=&amp;quot;/Volumes/MACEXT/python_env/site-packages&amp;quot;
 &lt;/pre&gt;
 &lt;/div&gt;
-</summary><category term="2014"></category><category term="awesome"></category></entry></feed>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Sun, 03 Oct 2010 10:20:00 +0200</pubDate><guid>tag:yishenggudou.github.com,2010-10-03:djang-rest-api-doc-zh_CN.html</guid><category>2014</category><category>awesome</category></item></channel></rss>

@@ -8,12 +8,24 @@
 &lt;li&gt;继续研究 &lt;cite&gt;HTML5&lt;/cite&gt; 和 &lt;cite&gt;JS&lt;/cite&gt; 跨平台解决方案&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">@timger</dc:creator><pubDate>Mon, 20 Jan 2014 21:20:00 +0100</pubDate><guid>tag:yishenggudou.github.com,2014-01-20:my-2014-zh_CN.html</guid><category>个人计划</category><category>2014</category></item><item><title>使用django rest 框架构建你的REST API 服务器</title><link>http://yishenggudou.github.com/my-super-post-zh_CN.html</link><description>&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/timger/yishenggudou.github.com/content/django-rest-api.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">@timger</dc:creator><pubDate>Mon, 20 Jan 2014 21:20:00 +0100</pubDate><guid>tag:yishenggudou.github.com,2014-01-20:my-2014-zh_CN.html</guid><category>个人计划</category><category>2014</category></item><item><title>使用django rest 框架构建你的REST API 服务器</title><link>http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html</link><description>&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;环境搭建&lt;/h2&gt;
+&lt;p&gt;创建虚拟环境 &lt;cite&gt;virtualenv  python_env&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;添加别名:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
-使用django rest 框架构建你的REST API 服务器
-###########################
+6 alias virtualenv_python=&amp;quot;. /Volumes/MACEXT/python_env/bin/activate &amp;amp;&amp;amp; /Volumes/MACEXT/python_env/bin/python&amp;quot;
+7 alias virtualenv_pip=&amp;quot;. /Volumes/MACEXT/python_env/bin/activate &amp;amp;&amp;amp; /Volumes/MACEXT/python_env/bin/pip&amp;quot;
+&lt;/pre&gt;
+&lt;p&gt;安装包:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+virtualenv_pip install django==1.5.1
+virtualenv_pip install djangorestframework
+virtualenv_pip install markdown
+virtualenv_pip install django-filter
+&lt;/pre&gt;
+&lt;p&gt;如果安装路径不对则修改 &lt;cite&gt;/Volumes/MACEXT/python_env/bin/activate&lt;/cite&gt;&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+export PYTHONPATH=&amp;quot;/Volumes/MACEXT/python_env/site-packages&amp;quot;
 &lt;/pre&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Sun, 03 Oct 2010 10:20:00 +0200</pubDate><guid>tag:yishenggudou.github.com,2010-10-03:my-super-post-zh_CN.html</guid><category>2014</category><category>awesome</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Sun, 03 Oct 2010 10:20:00 +0200</pubDate><guid>tag:yishenggudou.github.com,2010-10-03:djang-rest-api-doc-zh_CN.html</guid><category>2014</category><category>awesome</category></item></channel></rss>

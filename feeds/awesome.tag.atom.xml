@@ -18,5 +18,7 @@ virtualenv_pip install django-filter
 &lt;pre class="literal-block"&gt;
 export PYTHONPATH=&amp;quot;/Volumes/MACEXT/python_env/site-packages&amp;quot;
 &lt;/pre&gt;
+&lt;p&gt;我以为我能写篇blog的 这玩意儿太难用了, 上 &lt;a class="reference external" href="https://sandman.readthedocs.org/en/latest/admin.html"&gt;sandman&lt;/a&gt; 吧
+我就要一个简单的mysql的table的REST 接口&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="2014"></category><category term="awesome"></category></entry></feed>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/ge-ren.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2014-01-27T18:20:00+01:00</updated><entry><title>关于2013年的一些所想</title><link href="http://yishenggudou.github.com/about-2013-zh_CN.html" rel="alternate"></link><updated>2014-01-27T18:20:00+01:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2014-01-27:about-2013-zh_CN.html</id><summary type="html">&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/timger/yishenggudou.github.com/content/about-2014.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-关于2013年的一些所想
-##############
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/ge-ren.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2014-01-27T18:20:00+01:00</updated><entry><title>关于2013年的一些所想</title><link href="http://yishenggudou.github.com/about-2013-zh_CN.html" rel="alternate"></link><updated>2014-01-27T18:20:00+01:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2014-01-27:about-2013-zh_CN.html</id><summary type="html">&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;关于技术&lt;/h2&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;适度折腾

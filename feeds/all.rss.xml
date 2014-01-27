@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@timger</title><link>http://yishenggudou.github.com/</link><description></description><atom:link href="http://yishenggudou.github.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 27 Jan 2014 18:20:00 +0100</lastBuildDate><item><title>关于2013年的一些所想</title><link>http://yishenggudou.github.com/about-2013-zh_CN.html</link><description>&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;/Users/timger/yishenggudou.github.com/content/about-2014.rst&lt;/tt&gt;, line 2)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-关于2013年的一些所想
-##############
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>@timger</title><link>http://yishenggudou.github.com/</link><description></description><atom:link href="http://yishenggudou.github.com/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 27 Jan 2014 18:20:00 +0100</lastBuildDate><item><title>关于2013年的一些所想</title><link>http://yishenggudou.github.com/about-2013-zh_CN.html</link><description>&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;关于技术&lt;/h2&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;适度折腾

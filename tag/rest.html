@@ -4,7 +4,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>@timger - awesome</title>
+    <title>@timger - rest</title>
 
     <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/normalize.css" />
     <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/foundation.min.css" />
@@ -47,43 +47,55 @@
         
 
             <article>
-                <a href="http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html"><h3 class="article-title">使用django rest 框架构建你的REST API 服务器</h3></a>
-<h6 class="subheader" title="2010-10-03T10:20:00">Sun 03 October 2010
+                <a href="http://yishenggudou.github.com/sandman_and_gunicorn_build_rest_api-zh_CN.html"><h3 class="article-title">使用sandman和gunicorn构建高性能REST API</h3></a>
+<h6 class="subheader" title="2014-01-30T21:04:00">Thu 30 January 2014
 </h6>
 
 
+<p><cite>sandman</cite> 是一个基于 <cite>sqlalchemy</cite> 和 <cite>flask</cite> 的简单地将 <cite>mysql</cite> table映射成
+<cite>REST</cite> API 接口, 使用方法非常简单</p>
+<p>如下:</p>
+<pre class="literal-block">
+from sandman import app, db
+from werkzeug.contrib.fixers import ProxyFix
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqldb://timger:timger&#64;127.0.0.1:3306/apiserver'
+
+from sandman.model import register, Model
+from sandman.model import activate
+
+class Tweet(Model):
+    __tablename__ = 'tweetapi_tweet'
+
+class Apps(Model):
+    __tablename__ = 'recommend_apps'
+
+class Products(Model):
+    __tablename__ = 'recommend_products'
+
+register((Tweet,))
+
+activate()
+
+app.wsgi_app = ProxyFix(app.wsgi_app)
+app.run(debug=True)
+</pre>
+<p>上面的</p>
 <div class="section" id="id1">
-<h2>环境搭建</h2>
-<p>创建虚拟环境 <cite>virtualenv  python_env</cite></p>
-<p>添加别名:</p>
-<pre class="literal-block">
-6 alias virtualenv_python=&quot;. /Volumes/MACEXT/python_env/bin/activate &amp;&amp; /Volumes/MACEXT/python_env/bin/python&quot;
-7 alias virtualenv_pip=&quot;. /Volumes/MACEXT/python_env/bin/activate &amp;&amp; /Volumes/MACEXT/python_env/bin/pip&quot;
-</pre>
-<p>安装包:</p>
-<pre class="literal-block">
-virtualenv_pip install django==1.5.1
-virtualenv_pip install djangorestframework
-virtualenv_pip install markdown
-virtualenv_pip install django-filter
-</pre>
-<p>如果安装路径不对则修改 <cite>/Volumes/MACEXT/python_env/bin/activate</cite></p>
-<pre class="literal-block">
-export PYTHONPATH=&quot;/Volumes/MACEXT/python_env/site-packages&quot;
-</pre>
-<p>我以为我能写篇blog的 这玩意儿太难用了, 上 <a class="reference external" href="https://sandman.readthedocs.org/en/latest/admin.html">sandman</a> 吧
-我就要一个简单的mysql的table的REST 接口</p>
+<h2>部署</h2>
+<p>基于 <cite>gunicorn</cite> 部署 <cite>gunicorn app:app  -w 2</cite></p>
+<p>前端nginx 统一监听</p>
 </div>
-<p class="subheader">Category: <a href="http://yishenggudou.github.com/category/django-python.html">django, python</a>
+<p class="subheader">Category: <a href="http://yishenggudou.github.com/category/yeah.html">yeah</a>
 
     Tagged: 
     <a href="http://yishenggudou.github.com/tag/2014.html">2014 </a>
-    <a href="http://yishenggudou.github.com/tag/awesome.html">awesome </a>
+    <a href="http://yishenggudou.github.com/tag/rest.html">rest </a>
 </p>
 
 
 
-<p><a href="http://yishenggudou.github.com/djang-rest-api-doc-zh_CN.html#disqus_thread">comments</a></p>            </article>
+<p><a href="http://yishenggudou.github.com/sandman_and_gunicorn_build_rest_api-zh_CN.html#disqus_thread">comments</a></p>            </article>
 
 <div class="pagination-centered">
 <h6 class="subheader">Page 1 of 1</h6>

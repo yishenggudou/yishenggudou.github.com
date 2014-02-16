@@ -21,4 +21,19 @@ export PYTHONPATH=&amp;quot;/Volumes/MACEXT/python_env/site-packages&amp;quot;
 &lt;p&gt;我以为我能写篇blog的 这玩意儿太难用了, 上 &lt;a class="reference external" href="https://sandman.readthedocs.org/en/latest/admin.html"&gt;sandman&lt;/a&gt; 吧
 我就要一个简单的mysql的table的REST 接口&lt;/p&gt;
 &lt;/div&gt;
+</summary><category term="2014"></category><category term="awesome"></category></entry><entry><title>My super title</title><link href="http://yishenggudou.github.com/my-super-post-zh_CN.html" rel="alternate"></link><updated>2010-10-03T10:20:00+02:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2010-10-03:my-super-post-zh_CN.html</id><summary type="html">&lt;div class="section" id="couchbase"&gt;
+&lt;h2&gt;couchbase&lt;/h2&gt;
+&lt;p&gt;安装:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+cd tmp
+wget http://packages.couchbase.com/releases/2.2.0/couchbase-server-enterprise_2.2.0_x86_64.deb
+dpkg -i couchbase-server-enterprise_2.2.0_x86_64.deb
+&lt;/pre&gt;
+&lt;p&gt;安装 &lt;cite&gt;sync_gateway&lt;/cite&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+cd tmp
+wget http://packages.couchbase.com/releases/couchbase-sync-gateway/1.0-beta/couchbase-sync-gateway-community_1.0-beta2_x86_64.deb
+dpkg -i couchbase-sync-gateway-community_1.0-beta2_x86_64.deb
+&lt;/pre&gt;
+&lt;/div&gt;
 </summary><category term="2014"></category><category term="awesome"></category></entry></feed>

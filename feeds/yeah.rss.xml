@@ -33,4 +33,19 @@ app.run(debug=True)
 &lt;p&gt;基于 &lt;cite&gt;gunicorn&lt;/cite&gt; 部署 &lt;cite&gt;gunicorn app:app  -w 2&lt;/cite&gt;&lt;/p&gt;
 &lt;p&gt;前端nginx 统一监听&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Thu, 30 Jan 2014 21:04:00 +0100</pubDate><guid>tag:yishenggudou.github.com,2014-01-30:sandman_and_gunicorn_build_rest_api-zh_CN.html</guid><category>2014</category><category>rest</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Thu, 30 Jan 2014 21:04:00 +0100</pubDate><guid>tag:yishenggudou.github.com,2014-01-30:sandman_and_gunicorn_build_rest_api-zh_CN.html</guid><category>2014</category><category>rest</category></item><item><title>My super title</title><link>http://yishenggudou.github.com/my-super-post-zh_CN.html</link><description>&lt;div class="section" id="couchbase"&gt;
+&lt;h2&gt;couchbase&lt;/h2&gt;
+&lt;p&gt;安装:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+cd tmp
+wget http://packages.couchbase.com/releases/2.2.0/couchbase-server-enterprise_2.2.0_x86_64.deb
+dpkg -i couchbase-server-enterprise_2.2.0_x86_64.deb
+&lt;/pre&gt;
+&lt;p&gt;安装 &lt;cite&gt;sync_gateway&lt;/cite&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+cd tmp
+wget http://packages.couchbase.com/releases/couchbase-sync-gateway/1.0-beta/couchbase-sync-gateway-community_1.0-beta2_x86_64.deb
+dpkg -i couchbase-sync-gateway-community_1.0-beta2_x86_64.deb
+&lt;/pre&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timger</dc:creator><pubDate>Sun, 03 Oct 2010 10:20:00 +0200</pubDate><guid>tag:yishenggudou.github.com,2010-10-03:my-super-post-zh_CN.html</guid><category>2014</category><category>awesome</category></item></channel></rss>

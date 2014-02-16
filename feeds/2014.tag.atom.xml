@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/2014.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2014-01-30T21:04:00+01:00</updated><entry><title>使用sandman和gunicorn构建高性能REST API</title><link href="http://yishenggudou.github.com/sandman_and_gunicorn_build_rest_api-zh_CN.html" rel="alternate"></link><updated>2014-01-30T21:04:00+01:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2014-01-30:sandman_and_gunicorn_build_rest_api-zh_CN.html</id><summary type="html">&lt;p&gt;&lt;cite&gt;sandman&lt;/cite&gt; 是一个基于 &lt;cite&gt;sqlalchemy&lt;/cite&gt; 和 &lt;cite&gt;flask&lt;/cite&gt; 的简单地将 &lt;cite&gt;mysql&lt;/cite&gt; table映射成
+<feed xmlns="http://www.w3.org/2005/Atom"><title>@timger</title><link href="http://yishenggudou.github.com/" rel="alternate"></link><link href="http://yishenggudou.github.com/feeds/2014.tag.atom.xml" rel="self"></link><id>http://yishenggudou.github.com/</id><updated>2014-02-02T10:20:00+01:00</updated><entry><title>phonegap中debug</title><link href="http://yishenggudou.github.com/phonegap-debug-zh_CN.html" rel="alternate"></link><updated>2014-02-02T10:20:00+01:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2014-02-02:phonegap-debug-zh_CN.html</id><summary type="html">&lt;div class="section" id="debug"&gt;
+&lt;h2&gt;debug&lt;/h2&gt;
+&lt;/div&gt;
+</summary><category term="2014"></category><category term="phonegap"></category></entry><entry><title>使用sandman和gunicorn构建高性能REST API</title><link href="http://yishenggudou.github.com/sandman_and_gunicorn_build_rest_api-zh_CN.html" rel="alternate"></link><updated>2014-01-30T21:04:00+01:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2014-01-30:sandman_and_gunicorn_build_rest_api-zh_CN.html</id><summary type="html">&lt;p&gt;&lt;cite&gt;sandman&lt;/cite&gt; 是一个基于 &lt;cite&gt;sqlalchemy&lt;/cite&gt; 和 &lt;cite&gt;flask&lt;/cite&gt; 的简单地将 &lt;cite&gt;mysql&lt;/cite&gt; table映射成
 &lt;cite&gt;REST&lt;/cite&gt; API 接口, 使用方法非常简单&lt;/p&gt;
 &lt;p&gt;如下:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -121,5 +124,20 @@ export PYTHONPATH=&amp;quot;/Volumes/MACEXT/python_env/site-packages&amp;quot;
 &lt;/pre&gt;
 &lt;p&gt;我以为我能写篇blog的 这玩意儿太难用了, 上 &lt;a class="reference external" href="https://sandman.readthedocs.org/en/latest/admin.html"&gt;sandman&lt;/a&gt; 吧
 我就要一个简单的mysql的table的REST 接口&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="2014"></category><category term="awesome"></category></entry><entry><title>My super title</title><link href="http://yishenggudou.github.com/my-super-post-zh_CN.html" rel="alternate"></link><updated>2010-10-03T10:20:00+02:00</updated><author><name>timger</name></author><id>tag:yishenggudou.github.com,2010-10-03:my-super-post-zh_CN.html</id><summary type="html">&lt;div class="section" id="couchbase"&gt;
+&lt;h2&gt;couchbase&lt;/h2&gt;
+&lt;p&gt;安装:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+cd tmp
+wget http://packages.couchbase.com/releases/2.2.0/couchbase-server-enterprise_2.2.0_x86_64.deb
+dpkg -i couchbase-server-enterprise_2.2.0_x86_64.deb
+&lt;/pre&gt;
+&lt;p&gt;安装 &lt;cite&gt;sync_gateway&lt;/cite&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+cd tmp
+wget http://packages.couchbase.com/releases/couchbase-sync-gateway/1.0-beta/couchbase-sync-gateway-community_1.0-beta2_x86_64.deb
+dpkg -i couchbase-sync-gateway-community_1.0-beta2_x86_64.deb
+&lt;/pre&gt;
 &lt;/div&gt;
 </summary><category term="2014"></category><category term="awesome"></category></entry></feed>

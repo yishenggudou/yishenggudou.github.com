@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>@timger - cython</title>
+
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/normalize.css" />
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/style.css" />
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/pygments.css" />	
+    <script src="http://yishenggudou.github.com/theme/js/custom.modernizr.js"></script>
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <h1><a href="http://yishenggudou.github.com">@timger</a></h1>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+
+            <li><a href="http://yishenggudou.github.com/pages/my-checkout-zh_CN.html" class="button secondary small">购物单</a></li>
+            <li><a href="http://yishenggudou.github.com/pages/timger-product-list-zh_CN.html" class="button secondary small">作品列表</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+        
+        
+
+            <article>
+                <a href="http://yishenggudou.github.com/use-fast-type-in-cython-zh_CN.html"><h3 class="article-title">在cython中使用高效的数据结构</h3></a>
+<h6 class="subheader" title="2014-01-28T10:20:00">Tue 28 January 2014
+</h6>
+
+
+<div class="section" id="id1">
+<h2>Cython简介</h2>
+<p>cython是一个在python里面混写 <cite>c</cite> <cite>c++</cite> 代码来优化代码执行速度的项目
+与其说是一个库, 不如说是一们语言, 其完美地把 <cite>python</cite> 和 <cite>c</cite> , <cite>c++</cite>
+结合在一起, 让你可以用写 <cite>python</cite> 的方式写 <cite>c</cite> <cite>c++</cite> 我会写一个教程来
+讲如何用 <cite>cython</cite> 优化你的代码</p>
+<p>项目参见 <a class="reference external" href="http://docs.cython.org/">cython</a></p>
+</div>
+<div class="section" id="id3">
+<h2>数据结构</h2>
+<p>python代码的速度慢, 是因为python 是动态语言, 在执行过程中需要做很多的类型
+判断 比如简单的:</p>
+<pre class="literal-block">
+a = 'hello'
+b = 'test'
+c = a + b
+</pre>
+<p>在 <cite>a + b</cite> 的时候需要先对 <cite>a</cite> 和 <cite>b</cite> 的类型进行判断, 如果 <cite>a</cite> <cite>b</cite> 为整数则
+整数想加, <cite>a</cite> <cite>b</cite>  为字符串则 字符串相连, 所以官方推荐的字符串相连的写法是
+<cite>.join</cite> , 如果之前已知 <cite>a</cite> <cite>b</cite> 的类型就能减少类型判断这一步,</p>
+<p>python 内置的 <cite>list</cite> <cite>dict</cite> <cite>string</cite> <cite>set</cite> 等数据类型, 给我们编写代码提供很
+大便利, 但是这些数据类型为了提供通用性, 有些效率并不高, 比如 <cite>dict</cite> 的的key
+查找基于 <cite>__hash__</cite> 函数利用</p>
+</div>
+<p class="subheader">Category: <a href="http://yishenggudou.github.com/category/cython.html">cython</a>
+
+    Tagged: 
+    <a href="http://yishenggudou.github.com/tag/2014.html">2014 </a>
+    <a href="http://yishenggudou.github.com/tag/cython.html">cython </a>
+</p>
+
+
+
+<p><a href="http://yishenggudou.github.com/use-fast-type-in-cython-zh_CN.html#disqus_thread">comments</a></p>            </article>
+
+<div class="pagination-centered">
+<h6 class="subheader">Page 1 of 1</h6>
+
+<p>
+
+</p>
+</div>
+
+
+
+            <!-- /#posts-list -->
+
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <h5 class="sidebar-title">Site</h5>
+        <ul class="side-nav">
+            <li><a href="http://yishenggudou.github.com/archives.html">Archives</a>
+            <li><a href="http://yishenggudou.github.com/tags.html">Tags</a>
+        </ul>
+
+		
+        <h5 class="sidebar-title">Categories</h5>
+        <ul class="side-nav">
+            <li><a href="http://yishenggudou.github.com/category/cython.html">cython</a></li>
+            <li><a href="http://yishenggudou.github.com/category/django-python.html">django, python</a></li>
+            <li><a href="http://yishenggudou.github.com/category/ge-ren.html">个人</a></li>
+            <li><a href="http://yishenggudou.github.com/category/phonegap.html">phonegap</a></li>
+            <li><a href="http://yishenggudou.github.com/category/sui-xiang.html">随想</a></li>
+            <li><a href="http://yishenggudou.github.com/category/yeah.html">yeah</a></li>
+   
+        </ul>
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="http://getpelican.com/">Pelican</a></li>
+        </ul>
+		
+        <h5 class="sidebar-title">Social</h5>
+        <ul class="side-nav">
+            <li><a href="http://twitter.com/yishenggudou">twitter</a></li>
+            <li><a href="https://github.com/yishenggudou">github</a></li>
+            <li><a href="http://www.facebook.com/yishenggudou">facebook</a></li>
+            <li><a href="http://weibo.com/zhanghaibo">weibo</a></li>
+            <li><a href="http://www.renren.com/zhanghaibo">renren</a></li>
+        </ul>
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+              <!--                  <p>@timger by timger</p> -->
+            </div>
+            </div>
+    </div>
+</footer>

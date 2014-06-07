@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>使用sandman和gunicorn构建高性能REST API</title>
+
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/normalize.css" />
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/style.css" />
+    <link rel="stylesheet" href="http://yishenggudou.github.com/theme/css/pygments.css" />	
+    <script src="http://yishenggudou.github.com/theme/js/custom.modernizr.js"></script>
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <h1><a href="http://yishenggudou.github.com">@timger</a></h1>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+
+            <li><a href="http://yishenggudou.github.com/pages/my-checkout-zh_CN.html" class="button secondary small">购物单</a></li>
+            <li><a href="http://yishenggudou.github.com/pages/timger-product-list-zh_CN.html" class="button secondary small">作品列表</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+<article>
+    <header>
+        <h3 class="article-title"><a href="http://yishenggudou.github.com/sandman_and_gunicorn_build_rest_api-zh_CN.html" rel="bookmark"
+        title="Permalink to 使用sandman和gunicorn构建高性能REST API">使用sandman和gunicorn构建高性能REST API</a></h3>
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="yishenggudou">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+<h6 class="subheader" title="2014-01-30T21:04:00">Thu 30 January 2014
+</h6>
+
+
+    <p><cite>sandman</cite> 是一个基于 <cite>sqlalchemy</cite> 和 <cite>flask</cite> 的简单地将 <cite>mysql</cite> table映射成
+<cite>REST</cite> API 接口, 使用方法非常简单</p>
+<p>如下:</p>
+<pre class="literal-block">
+from sandman import app, db
+from werkzeug.contrib.fixers import ProxyFix
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqldb://timger:timger&#64;127.0.0.1:3306/apiserver'
+
+from sandman.model import register, Model
+from sandman.model import activate
+
+class Tweet(Model):
+    __tablename__ = 'tweetapi_tweet'
+
+class Apps(Model):
+    __tablename__ = 'recommend_apps'
+
+class Products(Model):
+    __tablename__ = 'recommend_products'
+
+register((Tweet,))
+
+activate()
+
+app.wsgi_app = ProxyFix(app.wsgi_app)
+app.run(debug=True)
+</pre>
+<p>上面的</p>
+<div class="section" id="id1">
+<h2>部署</h2>
+<p>基于 <cite>gunicorn</cite> 部署 <cite>gunicorn app:app  -w 2</cite></p>
+<p>前端nginx 统一监听</p>
+</div>
+
+<p class="subheader">Category: <a href="http://yishenggudou.github.com/category/yeah.html">yeah</a>
+
+    Tagged: 
+    <a href="http://yishenggudou.github.com/tag/2014.html">2014 </a>
+    <a href="http://yishenggudou.github.com/tag/rest.html">rest </a>
+</p>
+
+
+
+
+	<h4>Comments</h4>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'yishenggudou'
+        var disqus_identifier = "sandman_and_gunicorn_build_rest_api-zh_CN.html";
+        var disqus_url = "http://yishenggudou.github.com/sandman_and_gunicorn_build_rest_api-zh_CN.html";
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</article>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <h5 class="sidebar-title">Site</h5>
+        <ul class="side-nav">
+            <li><a href="http://yishenggudou.github.com/archives.html">Archives</a>
+            <li><a href="http://yishenggudou.github.com/tags.html">Tags</a>
+        </ul>
+
+		
+        <h5 class="sidebar-title">Categories</h5>
+        <ul class="side-nav">
+            <li><a href="http://yishenggudou.github.com/category/cython.html">cython</a></li>
+            <li><a href="http://yishenggudou.github.com/category/django-python.html">django, python</a></li>
+            <li><a href="http://yishenggudou.github.com/category/ge-ren.html">个人</a></li>
+            <li><a href="http://yishenggudou.github.com/category/phonegap.html">phonegap</a></li>
+            <li><a href="http://yishenggudou.github.com/category/sui-xiang.html">随想</a></li>
+            <li><a href="http://yishenggudou.github.com/category/yeah.html">yeah</a></li>
+   
+        </ul>
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="http://getpelican.com/">Pelican</a></li>
+        </ul>
+		
+        <h5 class="sidebar-title">Social</h5>
+        <ul class="side-nav">
+            <li><a href="http://twitter.com/yishenggudou">twitter</a></li>
+            <li><a href="https://github.com/yishenggudou">github</a></li>
+            <li><a href="http://www.facebook.com/yishenggudou">facebook</a></li>
+            <li><a href="http://weibo.com/zhanghaibo">weibo</a></li>
+            <li><a href="http://www.renren.com/zhanghaibo">renren</a></li>
+        </ul>
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+              <!--                  <p>@timger by timger</p> -->
+            </div>
+            </div>
+    </div>
+</footer>
